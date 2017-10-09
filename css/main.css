@@ -1,0 +1,108 @@
+.jumbotron-fluid{
+    background: #d7edf2;
+}
+
+.titel1{
+    color: #4a4949;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: 60px;
+    text-align: center;
+    
+}
+
+.subtitel1{
+    color: #4a4949;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 85px;
+    text-align: center;
+}
+
+.box1{
+    background: #4a4949;
+}
+
+.box2{
+    background: white;
+}
+
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #d7edf2;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #d7edf2;
+  text-decoration: none;
+}
+
+
+.album {
+  color: white;
+  font-size: 1em;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.album:hover {
+  color: #d7edf2;
+  text-decoration: none;
+}
+
+.band {
+  color: white;
+  font-size: 1em;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 50px;
+}
+
+.band:hover {
+  color: #d7edf2;
+  text-decoration: none;
+}
+
+.image {
+  display: block;
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-header{
+ 
+  width: 15%;
+  height: 100%;
+  position: relative;
+  top: 70%;
+  left: 42%; 
+}
+
+.modal-title{
+    color: #4a4949;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
