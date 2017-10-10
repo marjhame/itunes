@@ -2,11 +2,11 @@
     background: #d7edf2;
 }
 
-.titel1{
+h1 {
     color: #4a4949;
     font-family: 'Quicksand', sans-serif;
     font-weight: 300;
-    font-size: 60px;
+    font-size: 30px;
     text-align: center;
     
 }
@@ -15,7 +15,7 @@
     color: #4a4949;
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
-    font-size: 85px;
+    font-size: 43px;
     text-align: center;
 }
 
@@ -53,15 +53,22 @@
   text-decoration: none;
 }
 
-
-.album {
+a{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  font-size: 10px;
   color: white;
-  font-size: 1em;
+  
+
+
+}
+.album {
+  color: white !important;
+  font-size: 3em;
   padding: 10px;
   text-decoration: none;
   cursor: pointer;
   font-weight: 700;
-  font-size: 50px;
 }
 
 .album:hover {
@@ -84,11 +91,10 @@
   text-decoration: none;
 }
 
-.image {
-  display: block;
-  width: 70%;
-  height: 100%;
-  object-fit: cover;
+.img-fluid{
+  margin: 20px;
+  border: solid;
+  border-color: #d7edf2;
 }
 
 .image-header{
@@ -106,3 +112,21 @@
     font-weight: 500;
     text-align: center;
 }
+
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
