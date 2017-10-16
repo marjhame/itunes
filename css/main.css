@@ -6,25 +6,36 @@ h1 {
     color: #4a4949;
     font-family: 'Quicksand', sans-serif;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 24px;
     text-align: center;
     
 }
 
-.subtitel1{
+h3{
+  color: white;
+  font-size: 30px;
+}
+
+h2{
     color: #4a4949;
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
-    font-size: 43px;
+    font-size: 35px;
     text-align: center;
 }
 
 .box1{
     background: #4a4949;
+    
 }
 
 .box2{
     background: white;
+    padding: 33px;
+    border-bottom: 4px solid;
+    border-top: 4px solid;
+    border-color: #d7edf2;
+    
 }
 
 .box {
@@ -58,38 +69,51 @@ a{
   font-weight: 300;
   font-size: 10px;
   color: white;
-  
-
-
 }
+
 .album {
-  color: white !important;
-  font-size: 3em;
-  padding: 10px;
+  font-size: 40px;
+  padding: 4px;
   text-decoration: none;
   cursor: pointer;
   font-weight: 700;
+  margin-top: 20px;
+  
 }
 
+.border-bottom-0{
+  border-color: white;
+}
 .album:hover {
-  color: #d7edf2;
+  color: #d7edf2 !important;
   text-decoration: none;
 }
 
 .band {
-  color: white;
-  font-size: 1em;
-  padding: 10px;
-  text-decoration: none;
+  padding:10px;
   cursor: pointer;
   font-weight: 300;
-  font-size: 50px;
+  font-size: 27px;
+  
+}
+
+.imagine{
+  font-size: 21px;
+  padding:10px;
+  cursor: pointer;
+  
+}
+
+.imagine:hover{
+  color: #d7edf2 !important;
+  text-decoration: none;
 }
 
 .band:hover {
-  color: #d7edf2;
+  color: #d7edf2 !important;
   text-decoration: none;
 }
+
 
 .img-fluid{
   margin: 20px;
@@ -113,8 +137,36 @@ a{
     text-align: center;
 }
 
+.btn{
+  background-color: #d7edf2;
+
+}
+.btn:hover{
+  background-color:#4a4949;
+  color: white;
+}
+
+.button-grijs {
+  padding-top: 20px;
+}
+
+.spotify{
+  padding: 20px;
+  position: left;
+}
+
+.streep{
+  border-bottom: 3px solid;
+  width: 250px; 
+  margin-top: 20px;
+  border-color: #d7edf2;
+  
+ }
 
 
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
 
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
@@ -126,7 +178,47 @@ a{
 @media (min-width: 768px) { ... }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) { 
+  a{
+    
+     font-size: 30px;
+     color: white;
+   }
+   
+   .album {
+     font-size: 70px;
+     padding: 10px;
+     text-decoration: none;
+     cursor: pointer;
+     font-weight: 700;
+     margin-top: 20px;
+     margin-bottom: 60px;
+     
+   }
+  
+   .streep{
+    border-bottom: 3px solid;
+    width: 500px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+   }
+  
+   .band {
+    padding:10px;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 47px;
+    
+  }
+  
+  .imagine{
+    font-size: 40px;
+    padding:10px;
+    cursor: pointer;
+    
+  }
+}
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
