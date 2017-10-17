@@ -67,9 +67,7 @@ h2{
 
 a{
   font-family: 'Quicksand', sans-serif;
-  font-weight: 300;
-  font-size: 10px;
-  color: white;
+
 }
 
 .album {
@@ -140,7 +138,8 @@ a{
 
 .btn{
   background-color: #d7edf2;
-
+  color:#4a4949;
+  font-weight: 500;
 }
 .btn:hover{
   background-color:#4a4949;
@@ -175,38 +174,29 @@ a{
 
 
 
-// Extra large devices (large desktops, 1200px and up)
+/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { ... }
 
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
 
-// Small devices (landscape phones, 576px and up)
+/*  Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { ... }
 
 /*  Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
   
   a{
-    
-     font-size: 30px;
-     color: white;
+    font-size: 30px;
    }
-
+   
    h1 {
-    color: #4a4949;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 300;
+    
     font-size: 64px;
-    text-align: center;
   }
 
   h2{
-    color: #4a4949;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 500;
     font-size: 93px;
-    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -216,9 +206,6 @@ a{
      padding: 10px;
      padding-top: 80px;
      padding-bottom: 20px;
-     text-decoration: none;
-     cursor: pointer;
-     font-weight: 700;
      margin-top: 20px;
      margin-bottom: 60px;
      
@@ -230,22 +217,16 @@ a{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 30px;
-    
    }
   
    .band {
     padding:52px;
-    cursor: pointer;
-    font-weight: 300;
     font-size: 50px;
-    
   }
   
   .imagine{
     font-size: 40px;
     padding:52px;
-    cursor: pointer;
-    
   }
 }
 
